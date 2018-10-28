@@ -7,7 +7,9 @@ namespace blockchain
     public class Blockchain
     {
         public IList<Block> Chain { get; set; }
-        public int Difficulty { set; get; } = 4;
+        public int Difficulty { set; get; } = 2;
+        private IList<Transaction> PendingTransactions = new List<Transaction>();
+        public int Reward = 1;
 
         public Blockchain()
         {
@@ -22,13 +24,22 @@ namespace blockchain
 
         private Block CreateGenesisBlock()
         {
-            return new Block(DateTime.Now, null, "{}");
+            //return new Block(DateTime.Now, null, "{}");
+            Block block = new Block(DateTime.Now, null, PendingTransactions);
+            block.Mine(Difficulty);
+            PendingTransactions = new List<Transaction>();
+            return block;
         }
 
         private void AddGenesisBlock()
         {
             Chain.Add(CreateGenesisBlock());
         }
+
+        public void CreateTransaction(Transaction transaction)  
+        {  
+            PendingTransactions.Add(transaction);  
+        } 
 
         private Block GetLatestBlock()
         {
@@ -64,6 +75,41 @@ namespace blockchain
                 }  
             }  
             return true;  
+        }
+
+        // Processar as transações pendentes
+        public void ProcessPendingTransactions(string minerAddress)  
+        {  
+            Block block = new Block(DateTime.Now, GetLatestBlock().Hash, PendingTransactions);  
+            AddBlock(block);  
+        
+            PendingTransactions = new List<Transaction>();  
+            CreateTransaction(new Transaction(null, minerAddress, Reward));  
+        } 
+
+        public int GetBalance(string address)
+        {
+            int balance = 0;
+
+            for (int i = 0; i < Chain.Count; i++)
+            {
+                for (int j = 0; j < Chain[i].Transactions.Count; j++)
+                {
+                    var transaction = Chain[i].Transactions[j];
+
+                    if (transaction.FromAddress == address)
+                    {
+                        balance -= transaction.Amount;
+                    }
+
+                    if (transaction.ToAddress == address)
+                    {
+                        balance += transaction.Amount;
+                    }
+                }
+            }
+
+            return balance;
         }
 
     }
