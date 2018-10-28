@@ -1,0 +1,11 @@
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Debug\netcoreapp2.1\blockchain.deps.json
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Debug\netcoreapp2.1\blockchain.runtimeconfig.json
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Debug\netcoreapp2.1\blockchain.runtimeconfig.dev.json
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Debug\netcoreapp2.1\blockchain.dll
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Debug\netcoreapp2.1\blockchain.pdb
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Debug\netcoreapp2.1\blockchain.csprojAssemblyReference.cache
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Debug\netcoreapp2.1\blockchain.csproj.CoreCompileInputs.cache
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Debug\netcoreapp2.1\blockchain.AssemblyInfoInputs.cache
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Debug\netcoreapp2.1\blockchain.AssemblyInfo.cs
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Debug\netcoreapp2.1\blockchain.dll
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Debug\netcoreapp2.1\blockchain.pdb
