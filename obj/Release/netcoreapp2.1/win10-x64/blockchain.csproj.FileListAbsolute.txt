@@ -1,0 +1,14 @@
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Release\netcoreapp2.1\win10-x64\hostpolicy.dll
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Release\netcoreapp2.1\win10-x64\hostfxr.dll
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Release\netcoreapp2.1\win10-x64\blockchain.exe
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Release\netcoreapp2.1\win10-x64\blockchain.deps.json
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Release\netcoreapp2.1\win10-x64\blockchain.runtimeconfig.json
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Release\netcoreapp2.1\win10-x64\blockchain.runtimeconfig.dev.json
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Release\netcoreapp2.1\win10-x64\blockchain.dll
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\bin\Release\netcoreapp2.1\win10-x64\blockchain.pdb
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Release\netcoreapp2.1\win10-x64\blockchain.csprojAssemblyReference.cache
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Release\netcoreapp2.1\win10-x64\blockchain.csproj.CoreCompileInputs.cache
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Release\netcoreapp2.1\win10-x64\blockchain.AssemblyInfoInputs.cache
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Release\netcoreapp2.1\win10-x64\blockchain.AssemblyInfo.cs
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Release\netcoreapp2.1\win10-x64\blockchain.dll
+P:\Projetos\Pessoais\Faculdade\Sistemas Distribuídos\blockchain\obj\Release\netcoreapp2.1\win10-x64\blockchain.pdb

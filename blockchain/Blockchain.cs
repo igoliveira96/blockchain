@@ -8,18 +8,15 @@ namespace blockchain
     {
         public IList<Block> Chain { get; set; }
         public int Difficulty { set; get; } = 2;
-        private IList<Transaction> PendingTransactions = new List<Transaction>();
+        public IList<Transaction> PendingTransactions = new List<Transaction>();
         public int Reward = 1;
 
-        public Blockchain()
-        {
-            InitializeChain();
-            AddGenesisBlock();
-        }
+        public Blockchain(){}
 
-        private void InitializeChain()
+        public void InitializeChain()
         {
             Chain = new List<Block>();
+            AddGenesisBlock();
         }
 
         private Block CreateGenesisBlock()
